@@ -33,16 +33,16 @@ export function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="animate-fade-in">
               <p className="subtitle text-gold mb-4">About Us</p>
-              <h1 className="text-charcoal mb-8">Designing the Future</h1>
+              <h1 className="text-charcoal mb-8">Quality Home Furnishing</h1>
               <p className="text-medium-gray text-lg mb-8 leading-relaxed">
-                Founded in 2009, Atelier is a multidisciplinary design studio specializing 
-                in contemporary architecture and interior design. We believe that exceptional 
-                design emerges from a deep understanding of how people live and work.
+                The interior room is your trusted destination for premium home furnishing 
+                and office interior products. We specialize in creating beautiful, 
+                functional spaces with quality furniture and interior solutions.
               </p>
               <p className="text-medium-gray leading-relaxed">
-                Our approach is rooted in collaboration, sustainability, and timeless aesthetics. 
-                Each project is an opportunity to create something meaningful—spaces that not only 
-                function beautifully but also enhance the daily lives of those who inhabit them.
+                Our extensive collection includes sofas, mattresses, curtains, wallpaper, 
+                glass films, blinds, and flooring solutions. We believe that every space 
+                deserves to be both beautiful and comfortable, enhancing your daily living experience.
               </p>
             </div>
             

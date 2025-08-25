@@ -14,10 +14,13 @@ export function Footer({ onPageChange }: FooterProps) {
   ];
 
   const services = [
-    'Architecture',
-    'Interior Design',
-    'Space Planning',
-    'Design Consultation'
+    'Sofa',
+    'Mattress', 
+    'Curtains',
+    'Wallpaper',
+    'Glass Film',
+    'Blinds',
+    'Flooring'
   ];
 
   return (
@@ -27,11 +30,11 @@ export function Footer({ onPageChange }: FooterProps) {
           {/* Brand */}
           <div>
             <h3 className="text-3xl font-light mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>
-              Atelier
+              The interior room
             </h3>
             <p className="text-white/70 leading-relaxed mb-8">
-              Contemporary architecture and interior design studio creating 
-              spaces that inspire and transform everyday living.
+              Home Furnishing & Office Interior Products. Creating beautiful spaces 
+              with quality furniture and interior solutions.
             </p>
             
             {/* Social Links */}
@@ -87,15 +90,15 @@ export function Footer({ onPageChange }: FooterProps) {
             <div className="space-y-4">
               <div className="flex items-center space-x-3 text-white/70">
                 <Phone size={16} />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 97275 14095</span>
               </div>
               <div className="flex items-center space-x-3 text-white/70">
                 <Mail size={16} />
-                <span>hello@atelier.com</span>
+                <span>theinteriorroom23@gmail.com</span>
               </div>
               <div className="flex items-start space-x-3 text-white/70">
                 <MapPin size={16} className="mt-0.5" />
-                <span>123 Design District<br />New York, NY 10001</span>
+                <span>Shop.106, 1st Floor, Sunway Complex<br />Pandav Vadi, Near Nikol Lake, Nikol<br />Ahmedabad - 382350</span>
               </div>
             </div>
           </div>
@@ -104,7 +107,7 @@ export function Footer({ onPageChange }: FooterProps) {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm">
-            © 2024 Atelier. All rights reserved.
+            © 2024 The interior room. All rights reserved.
           </p>
           <div className="flex space-x-8 mt-4 md:mt-0">
             <a href="#" className="text-white/60 hover:text-white text-sm transition-colors duration-200">

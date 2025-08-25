@@ -196,8 +196,8 @@ export function ContactPage() {
                     </div>
                     <div>
                       <h4 className="text-charcoal font-medium mb-1">Phone</h4>
-                      <p className="text-medium-gray">+1 (555) 123-4567</p>
-                      <p className="text-medium-gray text-sm">Mon-Fri, 9AM-6PM EST</p>
+                      <p className="text-medium-gray">+91 97275 14095</p>
+                      <p className="text-medium-gray text-sm">Contact: Parth Kotadiya</p>
                     </div>
                   </div>
 
@@ -207,7 +207,7 @@ export function ContactPage() {
                     </div>
                     <div>
                       <h4 className="text-charcoal font-medium mb-1">Email</h4>
-                      <p className="text-medium-gray">hello@atelier.com</p>
+                      <p className="text-medium-gray">theinteriorroom23@gmail.com</p>
                       <p className="text-medium-gray text-sm">We'll respond within 24 hours</p>
                     </div>
                   </div>
@@ -217,10 +217,11 @@ export function ContactPage() {
                       <MapPin size={20} className="text-gold" />
                     </div>
                     <div>
-                      <h4 className="text-charcoal font-medium mb-1">Studio</h4>
+                      <h4 className="text-charcoal font-medium mb-1">Store Location</h4>
                       <p className="text-medium-gray">
-                        123 Design District<br />
-                        New York, NY 10001
+                        Shop.106, 1st Floor, Sunway Complex<br />
+                        Pandav Vadi, Near Nikol Lake, Nikol<br />
+                        Ahmedabad - 382350
                       </p>
                     </div>
                   </div>
@@ -230,21 +231,17 @@ export function ContactPage() {
               <div className="card animate-slide-up">
                 <div className="flex items-center mb-4">
                   <Clock size={20} className="text-gold mr-3" />
-                  <h4 className="text-charcoal font-medium">Office Hours</h4>
+                  <h4 className="text-charcoal font-medium">Store Hours</h4>
                 </div>
                 
                 <div className="text-medium-gray space-y-2">
                   <div className="flex justify-between">
-                    <span>Monday - Friday</span>
-                    <span>9:00 AM - 6:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Saturday</span>
-                    <span>10:00 AM - 4:00 PM</span>
+                    <span>Monday - Saturday</span>
+                    <span>10:00 AM - 8:00 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Sunday</span>
-                    <span>Closed</span>
+                    <span>11:00 AM - 6:00 PM</span>
                   </div>
                 </div>
               </div>
@@ -254,8 +251,8 @@ export function ContactPage() {
                 <div className="w-full h-full bg-gradient-to-br from-gold/20 to-medium-gray/20 flex items-center justify-center">
                   <div className="text-center text-medium-gray">
                     <MapPin size={48} className="mx-auto mb-4" />
-                    <h4 className="font-medium mb-2">Visit Our Studio</h4>
-                    <p className="text-sm">123 Design District, New York</p>
+                    <h4 className="font-medium mb-2">Visit Our Store</h4>
+                    <p className="text-sm">Sunway Complex, Nikol, Ahmedabad</p>
                   </div>
                 </div>
               </div>

@@ -48,7 +48,7 @@ export function Navigation({ currentPage, onPageChange }: NavigationProps) {
               className="text-2xl font-light text-charcoal hover:text-gold transition-colors duration-200 focus-visible"
               style={{ fontFamily: 'Playfair Display, serif' }}
             >
-              Atelier
+              The interior room
             </button>
 
             {/* Desktop Navigation */}
